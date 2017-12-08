@@ -2,61 +2,79 @@
 <html>
 <link rel="stylesheet" type="text/css" href="styles.css"></head>
 <body>
-
 <h1>Set the range</h1>
-<p>Inflation</p>
 
-<div id="slidecontainer">
-  <input type="range" min="1" max="10" value="2" class="slider" id="myRange">
-  <p>Value: <span id="demo"></span></p>
+<div class="base_contain">
+  <div class="contain">
+
+            <div>
+              <p>Inflation</p>
+              <div id="slidecontainer">
+                <input type="range" min="1" max="10" value="1" class="slider" id="myRange">
+                <p>Value: <span id="demo"></span></p>
+              </div>
+              <div>
+                <script src='source.js'></script>
+              </div>
+            </div>
+
+
+
+            <div>
+              <p>Crude($/Barrel)</p>
+              <div id="slidecontainer">
+                <input type="range" min="10" max="100" value="10" class="slider" id="myRange1">
+                <p>Value: <span id="demo1"></span></p>
+              </div>
+              <div>
+                <script src='source.js'></script>
+              </div>
+            </div>
+
+
+
+          <div>
+            <p>Interest rate %</p>
+            <div id="slidecontainer">
+              <input type="range" min="20000" max="80000" value="20000" class="slider" id="myRange2">
+              <p>Value: <span id="demo2"></span></p>
+            </div>
+            <div>
+              <script src='source.js'></script>
+            </div>
+          </div>
+
+
+          <div>
+            <p>Gold Price (Rs/10 gm)</p>
+            <div id="slidecontainer">
+              <input type="range" min="1" max="100" value="1" class="slider" id="myRange3">
+              <p>Value: <span id="demo3"></span></p>
+            </div>
+            <div>
+              <script src='source.js'></script>
+            </div>
+          </div>
+
+
+
+          <div>
+            <p>GDP %</p>
+            <div id="slidecontainer">
+              <input type="range" min="1" max="10" value="1" class="slider" id="myRange4">
+              <p>Value: <span id="demo4"></span></p>
+            </div>
+            <div>
+              <script src='source.js'></script>
+            </div>
+          </div>
+
+  </div>
+
+  <div class="image">
+    <img  id="imageemo" src="./images/1.png" alt="emoji">
+  </div>
+
 </div>
-<div>
-  <script src='source.js'></script>
-</div>
-
-<p>Crude($/Barrel)</p>
-
-
-<div id="slidecontainer">
-  <input type="range" min="10" max="100" value="20" class="slider" id="myRange1">
-  <p>Value: <span id="demo1"></span></p>
-</div>
-<div>
-  <script src='source.js'></script>
-</div>
-
-<p>Interest rate %</p>
-
-
-<div id="slidecontainer">
-  <input type="range" min="20000" max="80000" value="25000" class="slider" id="myRange2">
-  <p>Value: <span id="demo2"></span></p>
-</div>
-<div>
-  <script src='source.js'></script>
-</div>
-
-
-<p>Gold Price (Rs/10 gm)</p>
-
-<div id="slidecontainer">
-  <input type="range" min="1" max="100" value="50" class="slider" id="myRange3">
-  <p>Value: <span id="demo3"></span></p>
-</div>
-<div>
-  <script src='source.js'></script>
-</div>
-
-
-<p>GDP %</p>
-
-<div id="slidecontainer">
-  <input type="range" min="1" max="10" value="2" class="slider" id="myRange4">
-  <p>Value: <span id="demo4"></span></p>
-</div>
-<div>
-  <script src='source.js'></script>
-</div>
-<img class="image" id="imageemo" src="./images/1.png" alt="emoji">
 </body>
 </html>

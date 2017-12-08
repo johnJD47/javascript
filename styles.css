@@ -1,10 +1,8 @@
-
 #slidecontainer {
-    width: 1500px;
+    width: 600px;
     height: 30px;
     padding-bottom: 30px;
 }
-
 .slider {
     -webkit-appearance: none;
     width: 400px;
@@ -15,11 +13,9 @@
     -webkit-transition: .2s;
     transition: opacity .2s;
 }
-
 .slider:hover {
     opacity: 1.5;
 }
-
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
@@ -29,16 +25,34 @@
     background: #373837;
     cursor: pointer;
 }
-
 .slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
     background: #4CAF50;
     cursor: pointer;
 }
+.base_contain {
+  flex-direction: row;
+  width: 1000px;
 
+}
+.contain {
+  margin-left: 20px;
+    width: 500px;
+    border-right: 1px solid gray;
+
+
+}
 .image {
-    height: 100px;
-    width: 100px;
-    padding-top: 20px;
+  position: absolute;
+    left: 45%;
+    top: 40%;
+    height: 50%;
+    width:20%;
+    margin-bottom: 100px;
+    text-align: center;
+}
+img {
+  height: 200px;
+  width: 200px;
 }

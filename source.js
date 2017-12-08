@@ -6,11 +6,17 @@ slider.oninput = function myfunction() {
   if(this.value>2){
     document.getElementById('imageemo').src='./images/2.png'
   }
-  if(this.value>5){
+  if(this.value>4){
     document.getElementById('imageemo').src='./images/3.png'
   }
-  if(this.value>8){
+  if(this.value>6){
     document.getElementById('imageemo').src='./images/4.png'
+  }
+  if(this.value>8){
+    document.getElementById('imageemo').src='./images/43.png'
+  }
+  if(this.value>10){
+    document.getElementById('imageemo').src='./images/33.png'
   }
 }
 
@@ -74,22 +80,22 @@ slider3.oninput = function() {
   document.getElementById('imageemo').src='./images/18.png'
    output3.innerHTML = this.value;
 
-     if(this.value>20){
+     if(this.value>10){
        document.getElementById('imageemo').src='./images/19.png'
      }
-     if(this.value>40){
+     if(this.value>20){
        document.getElementById('imageemo').src='./images/20.png'
      }
-     if(this.value>60){
+     if(this.value>40){
        document.getElementById('imageemo').src='./images/21.png'
      }
-     if(this.value>70){
+     if(this.value>60){
        document.getElementById('imageemo').src='./images/22.png'
      }
      if(this.value>80){
        document.getElementById('imageemo').src='./images/23.png'
      }
-     if(this.value>10){
+     if(this.value>=100){
        document.getElementById('imageemo').src='./images/24.png'
      }
 }
@@ -102,22 +108,22 @@ slider4.oninput = function() {
   document.getElementById('imageemo').src='./images/25.png'
   output4.innerHTML = this.value;
 
-    if(this.value>2){
+    if(this.value>1){
       document.getElementById('imageemo').src='./images/26.png'
     }
-    if(this.value>4){
+    if(this.value>2){
       document.getElementById('imageemo').src='./images/27.png'
     }
-    if(this.value>6){
+    if(this.value>4){
       document.getElementById('imageemo').src='./images/28.png'
     }
-    if(this.value>8){
+    if(this.value>6){
       document.getElementById('imageemo').src='./images/29.png'
     }
-    if(this.value>10){
+    if(this.value>8){
       document.getElementById('imageemo').src='./images/30.png'
     }
-    if(this.value>3){
+    if(this.value>=10){
       document.getElementById('imageemo').src='./images/31.png'
     }
 };
